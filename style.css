@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.header{
+    width: 100%;
+    /* border-color: red; */
+    height: 100vh;
+    background-image: url(https://wallpaperaccess.com/full/5651990.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    /* border-color: red; */
+    padding: 20px 0;
+    text-align: center;
+}
+.logo{
+    width: 120px;
+    border-radius: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+}
+nav ul{
+    background-color: black;
+    width: 100%;
+    margin-top: 10px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+    color: aliceblue;
+}
+.text{
+    padding: 20px 8%;
+}
+nav.sticky{
+    position: fixed;
+    height: 100px;
+    border-color: aqua;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px 8%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
