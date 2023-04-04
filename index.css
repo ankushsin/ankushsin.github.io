@@ -32,6 +32,7 @@ html {
   box-sizing: border-box;
   
   
+  
 }
 
 ul {
@@ -81,6 +82,7 @@ body {
   nav a {
     color: var(--white);
     transition: var(--transition);
+    background: transparent;
     padding: 1px 5px;
     border-radius: 5px;
   }
@@ -123,6 +125,8 @@ body {
     color: var(--text-color);
     padding-top: 6rem;
     background-color: var(--bg-color);
+    padding-bottom: 150px;
+    
   }
 
   .header-container h1{
@@ -141,7 +145,7 @@ body {
     height: 100%;
   }
 
-  #resume{
+  #resume-button-2{
     padding: 10px 13px ;
     border: 1px solid var(--bg-color);
     margin-top: 2rem;
@@ -150,7 +154,7 @@ body {
     border-radius: 10%;
   }
 
-  #resume:hover{
+  #resume-button-2:hover{
     transition: var(--transition);
     background-color: var(--hover);
   }
@@ -224,19 +228,19 @@ body {
     background-color: var(--bg-color);
   }
 
-  .more-about {
+  #about {
     background-color: var(--bg-color);
     color: var(--text-color);
   }
   
-  .more-about h2 {
+  #about h2 {
     margin-bottom: var(--bottom-margin);
     text-align: center;
     padding-top: var(--bottom-margin-2);
     color: var(--white);
   }
   
-  .more-about p {
+  #about p {
     line-height: var(--line-height);
     padding: 0.4rem;
   }
