@@ -1,258 +1,521 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
-</head>
-<body>
+  <head>
 
-    <div class="header">
-        <nav class="navbar">
-            <div><img class="logo" src="https://t3.ftcdn.net/jpg/03/65/42/00/360_F_365420014_xjsSDkKzrhq4gr9GFzP6S97H7MJyNI5B.jpg" alt="logo"></div>
-            
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Style sheet  -->
+    <link rel="stylesheet" href="index.css" />
 
-           
+    <!-- Github calendar -->
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 
-            <ul class="menu">
-                <div class="icon cancel-btn">
-                    <i class="fa-solid fa-xmark"></i>
+    <!-- icon CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css">
+    
+    <!-- Tab style  -->
+    <link rel="icon" href="Assets/icons/Ankush Singh.jpg" />
+    <title>Ankush Singh </title>
+
+  </head>
+
+  <body>
+
+    <!-- ========== Navbar ========== -->
+    <nav id="nav">
+      <h1> <a href="#">Ankush Singh</a> </h1>
+      <ul class="navigation" >
+        <li><a href="#" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a target="_blank" href="Assets/icons/Ankush-Singh-Resume.pdf" download="Ankush-Singh-Resume.pdf" onclick="window.open('https://drive.google.com/file/d/1R89xip7ROMBDn_79ZebvaqvSxOe_Oo80/view?usp=sharing')">
+            Resume</a></li>
+      </ul>
+
+      <!-- Burger menu  -->
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+
+    <!-- ========== Profile Section ==========  -->
+    <section class="header-container">
+    
+      <div id="p_p">
+        <img src="Assets/icons/Ankush Singh.jpg" alt="Professional pic"/>
+      </div>
+      <h1>Hi, I'm Ankush Singh</h1>
+
+      <div class="content-text">
+        <h3>Java Backend Developer</h3>
+        <h3>
+          Always enthusiastic to learn and would love to work on new technologies.
+        </h3>
+      </div>
+      <div>
+        <h2 id="resume" onclick="window.open('https://drive.google.com/file/d/1R89xip7ROMBDn_79ZebvaqvSxOe_Oo80/view?usp=sharing')">
+          <a  target="_blank" href="Assets/icons/Ankush-Singh-Resume.pdf" download="Ankush-Singh-Resume.pdf" >
+            Resume</a></li>
+        </h2>
+
+      </div>
+      
+    </section>
+
+
+    <!-- ========== About Section ========== -->
+    <section class="more-about" id="about">
+      <div id="aboutextra"></div>
+      <h2 id="about_me_heading">ALL ABOUT ME</h2>
+      <div id="details">
+
+        <div id="details1">
+            <div class="per_sk">
+                <div>
+                    <h3>1200+ Hours</h3>
+                    <p>Coding</p>
                 </div>
-                <li>Home</li>
-                <li><a href="#about_me" class="about_me">About</a></li>
-                <li>Skills</li>
-                <li>Project</li>
-                <li>Contact</li>
-                <li>Resume</li>
-            </ul>
-
-            <div class="icon menu-btn">
-                <i class="fa-solid fa-bars"></i>
+                <div>
+                    <h3>700+ Questions</h3>
+                    <p>DSA</p>
+                </div>
+                <div>
+                    <h3>100+ hours</h3>
+                    <p>Soft Skills</p>
+                </div>
             </div>
-
-
-        </nav>
-
-    </div>
-    <div id="home">
-        <div id="home_details">
-            <h2>Hi, my name is </h2>
-
-
-            <h1>Ankush Singh</h1>
-
-            <h3>I'm a <span class="auto-type"></span></h3>
-            <a class="btn btn1">Resume</a>
-
-            <div id="share">
-                <i class="fa-sharp fa-solid fa-envelope"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-linkedin"></i>
-
+            <div><img  id="logoimg" src="https://miro.medium.com/max/1360/0*7Q3yvSIv_t0ioJ-Z.gif" alt=""></div>
+            <div class="per_sk">
+                <div>
+                    <h3>500+</h3>
+                    <p>Git Commits</p>
+                </div>
+                <div>
+                    <h3>4+</h3>
+                    <p>Collaborative Projects</p>
+                </div>
+                <div>
+                    <h3>5+</h3>
+                    <p>Individual Projects</p>
+                </div>
             </div>
-            
+          
         </div>
-        <div id="home_photo">
-            <img id="pp" src="https://github.com/ankushsin/ankushsin.github.io/blob/master/image/Ankush%20Singh.jpg?raw=true" alt="PP">
-           
-        </div>
-    </div>
-    <div id="about_me">
-        <div id="about_me_Heading"><h2>About me</h2></div>
-        <div id="about_me_gif"><img src="https://miro.medium.com/max/1360/0*7Q3yvSIv_t0ioJ-Z.gif" alt=""></div>
-        <div id="about_me_main_part">
-            <p>Enthusiastic <b>back-end developer</b>, proficient in <b>java and related frameworks, data structures, and algorithms.</b>
+        <br>
+        <div id="details2">
+          <p>Enthusiastic <b>back-end developer</b>, proficient in <b>java and related frameworks, data structures, and algorithms.</b>
             Passionate about working in the software industry.
             Collaborative team player who is proficient in working with interdisciplinary teams and executing goal-oriented projects.
             Through <b>1200+ hours</b> of practice and many personal projects, I honed my skills as a programmer, developing a certain versatility in using technologies and coding languages.
             Looking forward to developing products that help in making people live better and becoming an integral part of an organization that helps me grow.</p>
+
+           
         </div>
-        <div id="about_me_skills">
+      </div>  
+    </section>
+    
 
-            <div>
-                <h3>1200+ Hours</h3>
-                <p>Coding</p>
-            </div>
-            <div>
-                <h3>700+ Questions</h3>
-                <p>DSA</p>
-            </div>
-            <div>
-                <h3>100+ hours</h3>
-                <p>Soft Skills</p>
-            </div>
-            <div>
-                <h3>500+</h3>
-                <p>Git Commits</p>
-            </div>
-            <div>
-                <h3>4+</h3>
-                <p>Collaborative Projects</p>
-            </div>
-            <div>
-                <h3>5+</h3>
-                <p>Individual Projects</p>
-            </div>
+    <!-- ========== Skills section ========== -->
 
-
-
+    <section class="skills" id="skills">
+      <h2 class="skill-header"> TECHSTACKS I LOVE TO USE</h2>
+      
+      <div id="techs">
+        <div id="tech_gif">
+            <img src="Assets/icons/Backened img.png" alt="Backended_Img">
+        </div>
+        <div id="tech_logos">
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/java.png" alt="java">
+                <h3>Java</h3>
+              </div>
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/hibernate.png" alt="hibernate">
+                <h3>Hibernate</h3>
+              </div>
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/mysql.png" alt="mysql">
+                <h3>My SQL</h3>
+              </div>
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/springboot.png" alt="springboot">
+                <h3>Spring Boot</h3>
+              </div>
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/aws.png" alt="aws">
+                <h3>AWS</h3>
+              </div>
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/maven.png" alt="maven">
+                <h3>Maven</h3>
+              </div>
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/js.png" alt="Javascript">
+                <h3>Javascript</h3>
+              </div>
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/html.png" alt="html">
+                <h3>HTML</h3>
+              </div>
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/css.png" alt="CSS">
+                <h3>CSS</h3>
+              </div>
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/Bootstrap.png" alt="Bootstrap">
+                <h3>Bootstrap</h3>
+              </div>
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/Swagger.png" alt="swagger">
+                <h3>Swagger</h3>
+              </div>
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/restful.png" alt="restful">
+                <h3>RESTful API</h3>
+              </div>
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/dsa.png" alt="DSA">
+                <h3>DSA</h3>
+              </div>
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/git.png" alt="git">
+                <h3>Git & Github</h3>
+              </div>
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/vscode.png" alt="visualcode">
+                <h3>VS Code</h3>
+              </div>
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/netlify.png" alt="netlify">
+                <h3>Netlify</h3>
+              </div>
+              <div>
+                <img class="tech_Skill_log" src="Assets/icons/sts.png" alt="netlify">
+                <h3>STS</h3>
+              </div>
+        
         </div>
         
+      </div>
 
+     
+       
+
+        
+      
+    </section>
+
+
+    <!-- ========== GitHub ========== -->
+      
+    <div id="gitSection">
+      <h2 id="git_heading" >MY GITHUB STATISTICS</h2>
+      <div class="git--center">
+        <div class="calendar"> 
+          <!-- Loading stuff -->
+          Loading the data just for you.
+        </div>
+      </div>
     </div>
 
-    <div id="skills">
-      <div id="skills-heading"><h2>Tech Stack</h2></div>
 
-      <div id="skills-list">
-        <div>
-          <img src="Assets/icons/java.png" alt="java">
-          <h3>Java</h3>
+    <!-- ========== Project Section ========== -->
+    <section class="projects" id="projects">
+      
+
+      <h2 class="projects-title"> HERE ARE SOME OF MY PROJECTS </h2>
+
+      <div id="container-1">
+        <img class="img1" src="https://github.com/ankushsin/ankushsin.github.io/blob/master/image/Kissflow.com.jpg?raw=true" alt="kissflow">
+
+      <div class="glass">
+        <h3 id="parahead">KISSFLOW</h3>
+          <div id="para">
+            <p>Kissflow is simple for business users to create powerful apps, processes, or case boards that are natively integrated and flexible. </p>
+            <div id="tech_logo">
+                <img class="tech" src="Assets/icons/js.png" alt="">
+                <img class="tech" src="Assets/icons/git.png" alt="">
+                <img class="tech" src="Assets/icons/html.png" alt="">
+                <img class="tech" src="Assets/icons/css.png" alt="">
+                <img class="tech" src="Assets/icons/vscode.png" alt="">
+                <img class="tech" src="Assets/icons/netlify.png" alt="">
+                
+            </div>
+            
+          </div>
+          <a class="links" href="https://github.com/Durgashankar001/Kissflow.com-Clone.git" target="_blank" class="project-link">Code</a>
+          <a class="links" href="https://moonlit-jelly-60aaa4.netlify.app/" target="_blank" class="project-link">Live</a>
+      </div>
+    </div>
+
+      <div id="container-1">
+          <img class="img1" src="./Assets/icons/shop.com.jpg" alt="shop.com">
+
+        <div class="glass">
+          <h3 id="parahead">Shop.com</h3>
+            <div id="para">
+              <p>SHOP.COM is a new kind of shopping comparison site that offers the most comprehensive shopping experience on the web. Our shopping experts have drawn on their industry experience and insider connections to bring you the best collection of the stores you can't live without, and the brands and products you love - all in one place. </p>
+              <div id="tech_logo">
+                <img class="tech" src="Assets/icons/js.png" alt="">
+                <img class="tech" src="Assets/icons/git.png" alt="">
+                <img class="tech" src="Assets/icons/html.png" alt="">
+                <img class="tech" src="Assets/icons/css.png" alt="">
+                <img class="tech" src="Assets/icons/vscode.png" alt="">
+                <img class="tech" src="Assets/icons/netlify.png" alt="">
+                
+            </div>
+              
+            </div>
+            <a class="links" href="https://github.com/ankushsin/shy-exchange-4248.git" target="_blank" class="project-link">Code</a>
+            <a class="links" href="https://reliable-cuchufli-7e83c6.netlify.app/" target="_blank" class="project-link">Live</a>
         </div>
-        <div>
-          <img src="Assets/icons/hibernate.png" alt="hibernate">
-          <h3>Hibernate</h3>
+      </div>
+
+      <div id="container-1">
+        <img class="img1" src="./Assets/icons/Bath&BodyWorks.com.jpg">
+
+      <div class="glass">
+        <h3 id="parahead">Bath&BodyWorks.com</h3>
+          <div id="para">
+            <p>Bath&BodyWorks is a shopping website that has Products Loke Soaps, Room Freshners,Candals ,Body Spress and so more For all type of coustomer.</p>
+            <div id="tech_logo">
+                <img class="tech" src="Assets/icons/js.png" alt="">
+                <img class="tech" src="Assets/icons/git.png" alt="">
+                <img class="tech" src="Assets/icons/html.png" alt="">
+                <img class="tech" src="Assets/icons/css.png" alt="">
+                <img class="tech" src="Assets/icons/vscode.png" alt="">
+                <img class="tech" src="Assets/icons/netlify.png" alt="">
+                
+            </div>
+          </div>
+          <a class="links" href="https://github.com/HARSHAL-AP/Bath-Body.com-Clone.git" target="_blank" class="project-link">Code</a>
+          <a class="links" href="https://guileless-longma-a0b1d8.netlify.app/index.html" target="_blank" class="project-link">Live</a>
+      </div>
+    </div>
+
+    <div id="container-1">
+      <img class="img1" src="Assets/icons/rms.jpg">
+
+    <div class="glass">
+      <h3 id="parahead">CRIME INFORMATION MANAGEMENT SYSTEM / RISK MANAGEMENT SYSTEM</h3>
+        <div id="para">
+          <p>The main aim of this system is to maintain and manage the detail information of the crime happened in an area under a particular police station. This software will be used by the police officials in the Police station.</p>
+          <div id="tech_logo">
+            <img class="tech" src="Assets/icons/java.png" alt="">
+            <img class="tech" src="Assets/icons/mysql.png" alt="">
+            <img class="tech" src="Assets/icons/sts.png" alt="">
+            <img class="tech" src="Assets/icons/git.png" alt="">
+            <img class="tech" src="Assets/icons/vscode.png" alt="">
+            
         </div>
-        <div>
-          <img src="Assets/icons/mysql.png" alt="mysql">
-          <h3>My SQL</h3>
         </div>
-        <div>
-          <img src="Assets/icons/springboot.png" alt="springboot">
-          <h3>Spring Boot</h3>
+        <a class="links" href="https://github.com/ankushsin/winged-circle-872.git" target="_blank" class="project-link">Code</a>
+        
+    </div>
+  </div>
+
+  <div id="container-1">
+    <img class="img1" src="Assets/icons/ER-Diagram.png">
+
+  <div class="glass">
+    <h3 id="parahead">Covid-19 Vaccination</h3>
+      <div id="para">
+        <p>A REST API has been created specifically for Covid-19 Vaccination purposes, which includes all the basic CRUD operations found in an Online Cab Booking platform, with user validation implemented throughout the process.</p>
+        <div id="tech_logo">
+            <img class="tech" src="Assets/icons/java.png" alt="">
+            <img class="tech" src="Assets/icons/maven.png" alt="">
+            <img class="tech" src="Assets/icons/restful.png" alt="">
+            <img class="tech" src="Assets/icons/Swagger.png" alt="">
+            <img class="tech" src="Assets/icons/lombok.png" alt="">
+            <img class="tech" src="Assets/icons/mysql.png" alt="">
+            <img class="tech" src="Assets/icons/springboot.png" alt="">
+            <img class="tech" src="Assets/icons/sts.png" alt="">
+            <img class="tech" src="Assets/icons/git.png" alt="">
         </div>
-        <div>
-          <img src="Assets/icons/aws.png" alt="aws">
-          <h3>AWS</h3>
-        </div>
-        <div>
-          <img src="Assets/icons/maven.png" alt="maven">
-          <h3>Maven</h3>
-        </div>
-        <div>
-          <img src="Assets/icons/js.png" alt="Javascript">
-          <h3>Javascript</h3>
-        </div>
-        <div>
-          <img src="Assets/icons/html.png" alt="html">
-          <h3>HTML</h3>
-        </div>
-        <div>
-          <img src="Assets/icons/css.png" alt="CSS">
-          <h3>CSS</h3>
-        </div>
-        <div>
-          <img src="Assets/icons/Bootstrap.png" alt="Bootstrap">
-          <h3>Bootstrap</h3>
-        </div>
-        <div>
-          <img src="Assets/icons/Swagger.png" alt="swagger">
-          <h3>Swagger</h3>
-        </div>
-        <div>
-          <img src="Assets/icons/restful.png" alt="restful">
-          <h3>RESTful API</h3>
-        </div>
-        <div>
-          <img src="Assets/icons/dsa.png" alt="DSA">
-          <h3>DSA</h3>
-        </div>
-        <div>
-          <img src="Assets/icons/git.png" alt="git">
-          <h3>Git & Github</h3>
-        </div>
-        <div>
-          <img src="Assets/icons/visualcode.png" alt="visualcode">
-          <h3>VS Code</h3>
-        </div>
-        <div>
-          <img src="Assets/icons/netlify.png" alt="netlify">
-          <h3>Netlify</h3>
-        </div>
+        
+      </div>
+      <a class="links" href="https://github.com/rahulbawa07860/endurable-advice-917.git" target="_blank" class="project-link">Code</a>
+      
+  </div>
+</div>
+
+  </section>
+
+    <!-- Contact section -->
+  <section class="contact" id="contact">
   
+      <h2 id="cont_heading">CONTACT </h2>
+      
 
+    <div id="contactsec">
+
+
+        <div class="information">
+          <!-- box1 -->
+          <div class="info-box">
+              <i class="bx bxs-user"></i>
+              <span>Ankush Singh</span>
+          </div>
+          <!-- box2 -->
+          <div class="info-box">
+              <i class="bx bxs-phone"></i>
+              <span><a href="tel:+918603369683"> +91 8603369683</a></span>
+          </div>
+          <!-- box3 -->
+          <div class="info-box">
+              <i class="bx bxs-envelope"></i>
+              <span> <a href="mailto: ankushsingh24121999@gmail.com"> ankushsingh24121999@gmail.com</a></span>
+          </div>
+          <!-- box 4 -->
+          <div class="info-box">
+              <i class="bx bxs-map"></i>
+              <span> Bihar,India</span>
+          </div>
       </div>
 
 
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xayzplkk"  method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email Address"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="number">Number</label>
+              <input
+                type="number"
+                id="number"
+                name="sender-number"
+                placeholder="Enter Your Phone or Mobile Number"
+                class="input-field"
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <h2>
+
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </h2>
+          </form>
+        </div>
+      </div>
+
     </div>
-
-
- 
-
-
-    
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-    <script>
-
-
-// --------------------------------sticky navbar
-
+    <div>
+      
+      <div id="Social_links">
+       <div>
+        <img  src="Assets/icons/GMAIL.gif" alt="Gmail"/>
+        <div>
+          <a href="mailto:ankushsingh24121999@gmail.com">ankushsingh24121999@gmail.com</a>
+        </div>
+       </div>
+       <div>
+        <img  src="Assets/icons/call.gif" alt="Call"/>
+        <div>
+          <a href="tel:8603369683">+91 8603369683</a>
+        </div>
         
- const body = document.querySelector("body");
-const navbar = document.querySelector(".navbar");
-const menu = document.querySelector(".menu");
-const menuBtn = document.querySelector(".menu-btn");
-const cancelBtn = document.querySelector(".cancel-btn");
-const aboutme = document.querySelector(".about_me");
-
-        window.onscroll = function(){
-            if(window.pageYOffset >= menu.offsetTop){
-                navbar.classList.add("sticky");
-            }else{
-                navbar.classList.remove("sticky");
-            }
-        }
-
+       </div>
+       <div>
+        <img  src="Assets/icons/Linkedin.gif" alt="Gmail"/>
+        <div>
+          <a href="https://www.linkedin.com/in/ankush-singh-833251217/" target="_blank">Linkedin</a>
+        </div>
         
-
-
-menuBtn.onclick = ()=>{
-    menu.classList.add("active");
-    menuBtn.classList.add("hide");
-    body.classList.add("disabledScroll");
-}
-
-cancelBtn.onclick = ()=>{
-    menu.classList.remove("active");
-    menuBtn.classList.remove("hide");
-    body.classList.remove("disabledScroll");
-}
-
-aboutme.onclick = ()=>{
-    menu.classList.remove("active");
-    menuBtn.classList.remove("hide");
-    body.classList.remove("disabledScroll");
+       </div>
+       <div>
+        <img  src="Assets/icons/gitHubgif.gif" alt="Gmail"/>
+        <div>
+          <a href="https://github.com/ankushsin" target="_blank">Github</a>
+        </div>
+       </div>
+      </div>
+    </div>
     
-}
 
-// window.onscroll = ()=>{
-//     this.scrollY > 20 ? navbar.classList.add("sticky"):navbar.classList.remove("sticky")
-// }
+   
+  </section>
 
-        // -----------------------auto text--------------------------
+  <div>
 
-        var typed = new Typed(".auto-type",{
-            strings: ["Java Backend Developer","Problem Solver","Software Engineer","Full Stack Developer"] ,
-            typeSpeed: 150,
-            backSpeed: 50,
-            loop: true
-        })
+  </div>
 
-        // -----------------------------------------------------
+   
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="Assets/icons/upwardarrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+
+   
 
 
-
-
-
-
-    </script>
-    
-</body>
+    <!--  Website scripts -->
+  </body>
 </html>
+<script src="index.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+<script>
+  GitHubCalendar(".calendar", "ankushsin");
+
+  // or enable responsive functionality:
+  GitHubCalendar(".calendar", "ankushsin", { responsive: true });
+
+  // Use a proxy
+  GitHubCalendar(".calendar", "ankushsin", {
+     proxy (sheetalbisht2001) {
+       return fetch(`https://your-proxy.com/github?user=${ankushsin}`)
+     }
+  }).then(r => r.text())
+</script>
+
+
