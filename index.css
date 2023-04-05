@@ -211,15 +211,17 @@ body {
     
   }
 
-  #details2{
+  #user-detail-intro{
     margin: auto;
     width: 75%;
     text-align: center;
     margin-bottom: 100px;
+    font-size: 18px;
   }
 
-  #details2 p {
+  #user-detail-intro p {
     margin-bottom: 2rem;
+    
   }
 
   #logoimg{
@@ -276,6 +278,7 @@ body {
     color: aqua;
     width: 20%;
     margin: auto;
+    padding: 3px;
     border-radius: 10px;
     font-family: Capriola;
   }
@@ -622,7 +625,12 @@ body {
 #contact i {
   color: var(--white);
   font-size: 60px;
+  padding: 10px;
   margin-bottom: 30px;
+}
+#contact i:hover {
+  color: aqua;
+  padding: 0px;
 }
 #contact p:hover{
 color: aqua;
@@ -684,24 +692,22 @@ color: aqua;
 
 
     /* ========== profile Section ========== */
-    .hero {
-      flex-direction: column;
-      gap: 5rem;
+    #p_p{
+      width: 70%;
+      margin: auto;
+      /* border: 1px solid green; */
+      margin-bottom: 30px;
+    }
+  
+    #p_p img{
+      width: 37%;
       height: auto;
+      border-radius: 10%;
+      border: 5px solid black;
+      
     }
   
-    .hero img {
-        height: 20rem;
-    }
-
-    .hero img:hover{
-      height: 23rem;
-    }
-  
-    .bio {
-      margin-top: -4rem;
-      width: 20.5rem;
-    }
+   
 
 
     /* ========== About Section ========== */
@@ -784,6 +790,19 @@ color: aqua;
       width: 17.875rem;
       grid-template-columns: repeat(1,auto);
     }
+    #stas-desc{
+      width: 90%;
+      margin: auto;
+      
+    }
+    #stas-desc>div{
+      text-align: center;
+
+    }
+
+    #stats-desc img{
+      width: 60%;
+     }
 
     /* ========== Project Section ========== */
 
