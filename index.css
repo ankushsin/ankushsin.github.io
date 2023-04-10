@@ -240,12 +240,7 @@ body {
     color: var(--text-color);
   }
   
-  #about h2 {
-    margin-bottom: var(--bottom-margin);
-    text-align: center;
-    padding-top: var(--bottom-margin-2);
-    color: var(--white);
-  }
+ 
   
   #about p {
     line-height: var(--line-height);
@@ -281,6 +276,8 @@ body {
     padding: 3px;
     border-radius: 10px;
     font-family: Capriola;
+    text-align: center;
+    padding: 5px;
   }
   /* ========== Skills Section ==========  */
   #skills{
@@ -298,6 +295,7 @@ body {
     color: aqua;
     font-size: 30px;
     font-family: Capriola;
+    padding: 5px;
   }
 
 #techs{
@@ -413,11 +411,14 @@ body {
   }
   #github_part{
     background-color: var(--bg-color);
+    width: 100%;
+    margin: auto;
+    
 
   }
 
   #github_part h2{
-    color: var(--white);
+    
     text-align: center;
     /* padding-top: 2rem;
     padding-bottom: 2rem; */
@@ -427,6 +428,7 @@ body {
     background-color: #0e0e1b;
     color: aqua;
     font-family: Capriola;
+    padding: 5px;
    }
 
    #stats-desc{
@@ -439,7 +441,14 @@ body {
     padding-bottom: 150px;
    }
    #stats-desc img{
+    text-align: center;
     width: 30%;
+    padding: 10px;
+   }
+   #stats-desc img:hover{
+    /* width: 30%; */
+    padding: 0px;
+    transition: 1s;
    }
 
 
@@ -459,6 +468,7 @@ body {
   /* margin-top: 100px; */
   border-radius: 10px;
   color: aqua;
+  padding: 5px;
   font-family: Capriola;
 }
   
@@ -588,6 +598,7 @@ body {
   padding-bottom: 70px;
  /* border: 1px solid red; */
   margin: auto;
+  /* border: 1px solid green; */
 }
 
 
@@ -609,16 +620,23 @@ body {
 #contact_details>div{
   width: 17%;
   /* border: 1px solid yellow; */
+  margin: auto;
+  text-align: center;
   text-align: center;
   min-width:220px;
 }
 
  #contact_details{
   width: 90%;
-  padding-top: 100px;
+  /* padding-top: 100px; */
+  background-color: #0e0e1b;
+  padding: 20px;
   margin: auto;
   display: flex;
   gap: 35px;
+  /* border: 5px solid red; */
+  margin-top: 50px;
+  border-radius: 10px;
 
   flex-wrap: wrap;
  }
@@ -790,19 +808,22 @@ color: aqua;
       width: 17.875rem;
       grid-template-columns: repeat(1,auto);
     }
-    #stas-desc{
+    #stats-desc{
+      padding-top: 100px;
       width: 90%;
       margin: auto;
+      /* border: 1px solid green; */
       
     }
-    #stas-desc>div{
-      text-align: center;
-
-    }
+    
 
     #stats-desc img{
+      text-align: center;
+      margin: auto;
       width: 60%;
+      /* border: 1px solid salmon; */
      }
+    
 
     /* ========== Project Section ========== */
 
@@ -950,5 +971,22 @@ color: aqua;
     .information{
       padding-left: 5%;
     }
+
+    /* ----------------github--------------------- */
+    #stats-desc{
+      padding-top: 100px;
+      width: 90%;
+      margin: auto;
+      /* border: 1px solid green; */
+      
+    }
+    
+
+    #stats-desc img{
+      text-align: center;
+      margin: auto;
+      width: 80%;
+      /* border: 1px solid salmon; */
+     }
     
   } 
