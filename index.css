@@ -102,6 +102,9 @@ body {
     font-weight: var(--normal-font);
     font-size: 20px;
     background-color: var(--darkbgcolor);
+    border-radius: 10px;
+    padding: 3px;
+
   }
 
   .burger-menu {
@@ -642,9 +645,9 @@ body {
  }
 #contact i {
   color: var(--white);
-  font-size: 60px;
+  font-size: 30px;
   padding: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 #contact i:hover {
   color: aqua;
@@ -653,10 +656,14 @@ body {
 #contact p:hover{
 color: aqua;
 }
+#contact h4{
+  color: var(--white);
+}
 #footer{
   text-align: center;
   color: aqua;
   background-color: black;
+  padding: 5px;
 }
  
 
@@ -685,7 +692,7 @@ color: aqua;
 
     nav ul {
       position: fixed;
-      background-color: var(--bg-color);
+      background-color: rgb(1, 1, 17);
       flex-direction: column;
       top: 86px;
       left: 10%;
