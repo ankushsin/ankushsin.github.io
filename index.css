@@ -476,26 +476,30 @@ body {
 }
   
 
-  .projects-title{
-    color: var(--white);
-    text-align: center;
-    font-size: 30px;
-    /* margin-top: 100px; */
-    width: 50%;
-    margin: auto;
-    border-radius: 10px;
-    background-color: var(--darkbgcolor);
-    color: aqua;
-    font-family: Capriola;
-
-  }
+ 
 
   .project-card {
     position: relative;
     text-align: center;
     color: var(--white);
+    /* color: orange; */
     padding: 5%;
     border-radius: 10%;
+  }
+  .projects-title{
+    /* color: orange; */
+    text-align: center;
+    font-size: 30px;
+    /* margin-top: 100px; */
+    
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    background-color: var(--darkbgcolor);
+    color: aqua;
+    font-family: Capriola;
+
   }
 
   .glass {
@@ -506,6 +510,11 @@ body {
     top: 28%;
     padding: 1.5%;
     border-radius: 5%;
+  }
+
+  .project-description{
+    color: rgb(191, 198, 198);
+    padding-top: 10px;
   }
 
   .project-github-link {
@@ -533,10 +542,12 @@ body {
 
   .project-github-link:hover{
     background-color: var(--hover);
+    transition: 0.7s;
     
   }
   .project-deployed-link:hover{
     background-color: var(--hover);
+    transition: 0.7s;
     
   }
 
@@ -546,7 +557,7 @@ body {
     padding: 20px;
     width: 60%;
     border-radius: 5%;
-    filter: blur(1px);
+    filter: blur(0px);
   }
   .img1:hover{
     padding: 0px;
@@ -747,6 +758,9 @@ color: aqua;
     #details1{
         flex-direction: column;
     }
+    #about_me_heading{
+      width: 50%;
+    }
 
     
     /* ========== Skills Section ========== */
@@ -798,6 +812,17 @@ color: aqua;
         cursor: pointer;
         
     }
+    .skill-header{
+      width: 50%;
+      margin: auto;
+      background-color: #0e0e1b;
+      border-radius: 10px;
+      text-align: center;
+      color: aqua;
+      font-size: 20px;
+      font-family: Capriola;
+      padding: 5px;
+    }
 
 
     /* ========== GitHub ========== */
@@ -821,6 +846,14 @@ color: aqua;
       margin: auto;
       /* border: 1px solid green; */
       
+    }
+    #github_part h2{
+      width: 50%;
+      font-size: 20px;
+    }
+    #gitSection h2{
+      width: 50%;
+      font-size: 20px;
     }
     
 
@@ -884,6 +917,10 @@ color: aqua;
     .information{
       padding-left: 20%;
       margin-top:8%;
+    }
+    #contact h2{
+      width: 50%;
+      font-size: 20px;
     }
 
     
