@@ -761,6 +761,10 @@ color: aqua;
     #about_me_heading{
       width: 50%;
     }
+    #logoimg{
+      width: 90%;
+      text-align: center;
+    }
 
     
     /* ========== Skills Section ========== */
@@ -903,6 +907,7 @@ color: aqua;
     #tech_logo{
         flex-wrap: wrap;
     }
+   
 
   
     
