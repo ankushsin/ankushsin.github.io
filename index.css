@@ -51,6 +51,7 @@ body {
 }
 
 
+
 /* ========== Navbar ==========  */
 
   nav {
@@ -366,6 +367,28 @@ body {
       border: var(--bg-color);
       
       
+   }
+
+   #backcal1{
+    background-color: #130102;
+    padding-bottom: 50px;
+    
+
+   }
+
+   #cal1{
+    background-color: #130102;
+    width: auto;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    
+   }
+
+   .imggg1{
+    margin: auto;
+    height: auto
+    
    }
 
    #gitSection h2{
