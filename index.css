@@ -370,8 +370,9 @@ body {
    }
 
    #backcal1{
+    padding-top: 100px;
     background-color: #130102;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     
 
    }
@@ -889,6 +890,34 @@ color: aqua;
       margin: auto;
       width: 60%;
       /* border: 1px solid salmon; */
+     }
+
+     #backcal1{
+
+      padding-top: 50px;
+      background-color: #130102;
+      padding-bottom: 50px;
+      
+      
+  
+     }
+  
+     #cal1{
+      background-color: #130102;
+      width: 90%;
+      margin: auto;
+      border-radius: 10px;
+      text-align: center;
+
+      
+     }
+  
+     .imggg1{
+      margin: auto;
+      width: 100%;
+
+      height: auto
+      
      }
     
 
