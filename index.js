@@ -11,7 +11,7 @@ scrollUp.addEventListener("click", () => {
 });
 
 function resumeDownload(){
-  window.open("https://drive.google.com/file/d/1R89xip7ROMBDn_79ZebvaqvSxOe_Oo80/view?usp=sharing");
+  window.open("https://drive.google.com/file/d/1QOCXLGtp3E8gRj2kn0jvCi2DJCBzKFj_/view?usp=sharing");
 }
 
 // Nav hamburgerburger selections
